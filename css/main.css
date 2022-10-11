@@ -27,9 +27,33 @@ ul {
     background-color: skyblue
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
     text-decoration: none;
 }
+
+a:link {
+    
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  a:hover {
+    
+    color:mediumvioletred
+    
+  }
+
+  a:active {
+
+    color:yellowgreen
+
+  }
+
 
 /* Add background and border to link. Change color on hover/active.*/
